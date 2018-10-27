@@ -1,5 +1,5 @@
 // Write a program to find the greater no. using inline func.?
-
+/* code starts */
 #include<iostream>
 using std::cin;
 using std::cout;
@@ -28,3 +28,4 @@ int main()
 	
 	return 0;
 }
+/* code ends */
