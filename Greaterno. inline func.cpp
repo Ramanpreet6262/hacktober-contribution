@@ -4,6 +4,7 @@
 using std::cin;
 using std::cout;
 
+//greater function starts
 inline int greater(int ,int );
 
 int greater(int a,int b)
