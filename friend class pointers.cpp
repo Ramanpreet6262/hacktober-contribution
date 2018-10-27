@@ -3,6 +3,7 @@
 #include<string.h>
 using namespace std;
 
+//decleration of class inc
 class inc;
 class id
 {
