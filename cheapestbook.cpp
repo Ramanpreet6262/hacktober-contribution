@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//class book starts
+//class book starts.
 class book
 {
 	int price;
