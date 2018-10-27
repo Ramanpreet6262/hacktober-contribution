@@ -1,3 +1,4 @@
+/* code starts */
 #include<iostream>
 using namespace std;
 
