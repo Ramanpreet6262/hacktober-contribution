@@ -46,3 +46,4 @@ int cheapest(book a[], int n)
 		}
 		return l;
 }
+/* code ends */
