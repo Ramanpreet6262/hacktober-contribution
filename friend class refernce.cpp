@@ -10,8 +10,8 @@ class id
 	int salary;
 	char dept[50];
 	public:
-		void getdata()
-		{
+		void getdata(){
+			cout<<"Enter salary and department";
 			cin>>salary>>dept;			
 		}
 		friend class inc;
@@ -23,22 +23,16 @@ class inc
 		void in(id &i1)
 		{
 			if(strcmp(i1.dept,"cse")==0)
-			{
 				i1.salary+=1000;
-			}
 			
 			else if(strcmp(i1.dept,"ece")==0)
-			{
 				i1.salary+=2000;
-			}
 			else if(strcmp(i1.dept,"mech")==0)
-			{
 				i1.salary+=750;
-			}
 		}
 		void display(id &i1)
 		{
-			cout<<"dept"<<i1.dept<<endl;
+			cout<<"The department is "<<i1.dept<<endl;
 			cout<<i1.salary;
 		}
 };
