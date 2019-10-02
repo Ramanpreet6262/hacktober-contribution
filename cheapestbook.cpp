@@ -26,6 +26,7 @@ int main()
 		a[i].getdata();
 	}
 	cprice=cheapest(a,n);
+	//cprice returns integer from cheapest function
 	
 	return 0;
 	
