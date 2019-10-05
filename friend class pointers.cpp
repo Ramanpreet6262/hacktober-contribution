@@ -43,6 +43,7 @@ class inc
 		}
 };
 
+// main function starts here
 int main()
 {
 	id i1;
