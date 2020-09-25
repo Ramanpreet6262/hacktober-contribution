@@ -12,7 +12,6 @@ class str
 			len = strlen(s);
 			name = new char[len+1];
 			strcpy(name,s);
-			
 		}
 	
 };
