@@ -1,18 +1,12 @@
-/*
-    Author: Piyush Garg
- */
-
 #include <iostream>
-
 
 using namespace std;
 
-class Interest{
+class Interest {
     private:
     float p,r,t;
     
-    int power(float x, float t)
-    {
+    int power(float x, float t) {
         float result = x;
         for(int i=0;i<t;i++){
             result *= result;
@@ -21,7 +15,7 @@ class Interest{
 
     }
     public:
-    Interest(float principalAmt, float rate, float time){
+    Interest(float principalAmt, float rate, float time) {
         this->p = principalAmt;
         this->r = rate;
         this->t = time;
@@ -30,7 +24,7 @@ class Interest{
     int CI(float n){return this->p*power((1+this->r/n),this->t);}
 };
 
-int main(){
+int main() {
     /*
         Write your code here
      */
